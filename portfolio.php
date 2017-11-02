@@ -9,7 +9,54 @@
   <body>
 
 
-    
+    <div class="generalContainer">
+      <div class="gridContainer">
+
+
+
+        <div class="col-1">
+
+        </div>
+        <div class="col-2">
+
+        </div>
+        <div class="col-3">
+
+        </div>
+        <div class="col-4">
+
+        </div>
+        <div class="col-5">
+
+        </div>
+        <div class="col-6">
+
+        </div>
+        <div class="col-7">
+
+        </div>
+        <div class="col-8">
+
+        </div>
+        <div class="col-9">
+
+        </div>
+        <div class="col-10">
+
+        </div>
+        <div class="col-11">
+
+        </div>
+        <div class="col-12">
+
+        </div>
+
+        <h1>01</h1>
+      </div>
+
+    </div>
+
+
     <!-- call to JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
