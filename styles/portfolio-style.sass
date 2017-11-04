@@ -4,6 +4,7 @@ body
 
 *
   box-sizing: border-box
+  -webkit-font-smoothing: antialiased
 
 
 .generalContainer
@@ -21,6 +22,43 @@ body
     z-index: 1
     display: flex
 
+    .profileImage
+      position: absolute
+      top: 120px
+      margin-left: 169px
+      width: 692px
+      height: 500px
+      background-color: white
+      z-index: 20
+      box-shadow: 1px 90px 180px -30px rgba(20,39,48,0.3)
+      background:
+        image: url('')
+        size: cover
+        repeat: no-repeat
+        position: center
+
+      .juan
+        position: absolute
+        top: 0px
+        margin-left: 200px
+        font:
+          size: 55px
+
+      .salvatore
+        position: absolute
+        top: 0px
+        margin-left: 350px
+        font:
+          size: 55px
+
+      p
+        position: relative
+        left: -79.5px
+        top: 200px
+        font-family: 'Roboto', sans-serif
+        line-height: 48px
+        letter-spacing: 0.5px
+        width: 280px
 
     h1
       position: absolute
@@ -30,9 +68,32 @@ body
       margin-left: 4px
       color: #F6F9F9
 
+    h2
+      position: absolute
+      top: 773px
+      font-family: helvetica
+      font-size: 209px
+      margin-left: 636px
+      color: #F6F9F9
 
     .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12
       border: 1px solid white
       opacity: 0.5
       flex-grow: 1
       margin: 0 10px 0 10px
+
+.sudcoSection
+  position: absolute
+  top: 860px
+  margin-left: 169px
+  width: 532.8px
+  height: 400px
+  background-color: #FFE700
+  box-shadow: 1px 90px 180px -30px rgba(20,39,48,0.3)
+
+.fish
+  position: absolute
+  top: 750px
+  margin-left: 11px
+  width: 533px
+  height: auto

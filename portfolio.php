@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>Juan Salvatore</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="styles/portfolio-style.min.css">
   </head>
   <body>
@@ -52,6 +53,16 @@
         </div>
 
         <h1>01</h1>
+        <div class="profileImage">
+          <p class="juan">Juan</p>
+          <p class="salvatore">Salvatore</p>
+          <p><strong>Juan specializes in making things</strong> for human people. By day he works at Sudco. By night he keeps learning, watches netflix, and helps other people to learn programming.</p>
+        </div>
+        <h2>02</h2>
+        <div class="sudcoSection">
+
+        </div>
+        <img class="fish" src='img/fish.png' alt="sudco">
       </div>
 
     </div>
