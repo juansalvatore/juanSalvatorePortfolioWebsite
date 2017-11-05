@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Juan Salvatore</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
     <link rel="stylesheet" href="styles/portfolio-style.min.css">
   </head>
   <body>
@@ -60,7 +61,7 @@
         </div>
         <h2>02</h2>
         <div class="sudcoSection">
-
+          <p><strong>Sudco is a creative startup. </strong> Juan built their main website and works here doing his best to create awesome responsive web pages and apps. </p>
         </div>
         <img class="fish" src='img/fish.png' alt="sudco">
       </div>
