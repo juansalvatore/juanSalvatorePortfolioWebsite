@@ -86,6 +86,11 @@
           <img src='img/girl.png' alt="">
           <p><strong>Connected to emptiness.</strong><br> Juan wrote and direct a short film which was selected at BAFICI, Buenos Aires International Independent Film Festival.</p>
         </div>
+        <h3 class="seven">07</h3>
+        <div class="comicSection">
+          <img src='img/comicBookHeader.jpg' alt="">
+          <p><strong>The dessert sparrow.</strong><br> Juan loves drawing, he learned to draw with an argentinian Marvel drawer and he's been working on his 50 page comicbook.</p>
+        </div>
 
 
     </div>
