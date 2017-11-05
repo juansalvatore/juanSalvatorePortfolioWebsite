@@ -99,11 +99,12 @@
         </div>
         <h3 class="eight">08</h3>
         <div class="contactSection">
-          <a href="mailto:juansalvatore@live.com.ar"><img class="mail" src='img/mail.png' alt="mail"></a>
-          <a href="https://www.linkedin.com/in/juansalvatore/"><img src='img/linkedin-social-outline-logotype.png' alt="linkedin"></a>
-          <a href="https://github.com/juansalvatore"><img class="git" src='img/github.png' alt="github"><a href="#">
-          <a href="https://www.instagram.com/juansalvatore/"><img src='img/instagram-social-outlined-logo.png' alt="instagram"></a>
-          <a href="https://twitter.com/jnsalvatore"><img src='img/twitter-social-outlined-logo.png' alt="twitter"></a>
+          <h3 class="contactMe">Contact me!</h3>
+          <a href="mailto:juansalvatore@live.com.ar" target="_blank"><img class="mail" src='img/mail.png' alt="mail"></a>
+          <a href="https://www.linkedin.com/in/juansalvatore/" target="_blank"><img src='img/linkedin-social-outline-logotype.png' alt="linkedin"></a>
+          <a href="https://github.com/juansalvatore" target="_blank"><img class="git" src='img/github.png' alt="github"><a href="#">
+          <a href="https://www.instagram.com/juansalvatore/" target="_blank"><img src='img/instagram-social-outlined-logo.png' alt="instagram"></a>
+          <a href="https://twitter.com/jnsalvatore" target="_blank"><img src='img/twitter-social-outlined-logo.png' alt="twitter"></a>
         </div>
     </div>
 
