@@ -33,7 +33,7 @@ body
       z-index: 20
       box-shadow: 1px 90px 180px -30px rgba(20,39,48,0.3)
       background:
-        image: url('')
+        image: url('../img/juan.jpg')
         size: cover
         repeat: no-repeat
         position: center
@@ -45,7 +45,8 @@ body
         font:
           size: 125px
           family: 'Shadows Into Light', cursive
-        color: #252525
+        color: #3082FA
+        opacity: 0.8
 
       .salvatore
         position: absolute
@@ -54,7 +55,8 @@ body
         font:
           size: 125px
           family: 'Shadows Into Light', cursive
-        color: #252525
+        color: #3082FA
+        opacity: 0.8
 
       p
         position: relative
@@ -407,6 +409,38 @@ body
     left: 317px
     top: -70px
     box-shadow: 1px 90px 180px -30px rgba(20,39,48,0.3)
+
+  span
+    position: absolute
+    left: 530px
+    top: 350px
+    width: 200px
+    transform: scale(1.5)
+    button
+    	padding: 20px 40px
+    	background: none
+    	border: none
+    	position: relative
+    	text-transform: uppercase
+    	font-weight: bold
+    	letter-spacing: 3px
+    	cursor: pointer
+    	&:after, &:before
+    		content: ''
+    		position: absolute
+    		top: 0
+    		left: 0
+    		bottom: 0
+    		right: 0
+    		border: 2px solid #000
+    		transition: transform .2s
+    	&:after
+    		transform: translate(3px, 3px)
+    	&:before
+    		transform: translate(-3px, -3px)
+    	&:hover
+    		&:after, &:before
+    			transform: translate(0)
 
 .seven
   position: absolute
