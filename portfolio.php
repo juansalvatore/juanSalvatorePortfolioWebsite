@@ -59,11 +59,12 @@
           <p class="salvatore">Salvatore</p>
           <p><strong>Juan specializes in making things</strong> for human people. By day he works at Sudco. By night he keeps learning, watches netflix, and helps other people to learn programming.</p>
         </div>
-        <h2>02</h2>
+        <h2 class="two">02</h2>
         <div class="sudcoSection">
           <p><strong>Sudco is a creative startup. </strong> Juan built their main website and works here doing his best to create awesome responsive web pages and apps. </p>
         </div>
         <img class="fish" src='img/fish.png' alt="sudco">
+        <h2 class="three">03</h2>
         <div class="booleSection">
           <img src='img/booleMockup.png' alt="boole">
           <p><strong>Digital House's final project.</strong><br> Juan pair programmed a web app in php, javascript and sass, for illustrating a project schedule visually and dinamically. </p>
