@@ -62,24 +62,29 @@
         <h2 class="two">02</h2>
         <div class="sudcoSection">
           <p><strong>Sudco is a creative startup. </strong> Juan built their main website and works here doing his best to create awesome responsive web pages and apps. </p>
+          <span><button>Go to page</button></span>
+
         </div>
         <img class="fish" src='img/fish.png' alt="sudco">
         <h2 class="three">03</h2>
         <div class="booleSection">
           <img src='img/booleMockup.png' alt="boole">
           <p><strong>Digital House's final project.</strong><br> Juan pair programmed a web app in php, javascript and sass, for illustrating a project schedule visually and dinamically. </p>
+          <span><button>Go to page</button></span>
         </div>
         <h2 class="four">04</h2>
         <div class="laNacionSection">
           <img src='img/lanacion.png' alt="lanacion">
           <p><strong>La Nacion redesign.</strong><br> Juan redesigned and programmed his own vision for the argentinian newspaper.</p>
+          <span><button>Go to github</button></span>
         </div>
         <h3 class="five">05</h3>
         <div class="csSection">
           <div class="videoCs">
             <iframe class="youtube-player" src="https://www.youtube.com/embed/RFYKI1RbAMQ" frameborder="0" allowfullscreen></iframe>
-            <p><strong>Harvard's CS50 course.</strong><br> Juan finished Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.</p>
           </div>
+          <p><strong>Harvard's CS50 course.</strong><br> Juan finished Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.</p>
+          <span><button>Go to blog</button></span>
         </div>
         <h3 class="six">06</h3>
         <div class="audiovisualSection">
