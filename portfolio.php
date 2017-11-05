@@ -74,6 +74,13 @@
           <img src='img/lanacion.png' alt="lanacion">
           <p><strong>La Nacion redesign.</strong><br> Juan redesigned and programmed his own vision for the argentinian newspaper.</p>
         </div>
+        <h3 class="five">05</h3>
+        <div class="csSection">
+          <div class="videoCs">
+            <iframe class="youtube-player" src="https://www.youtube.com/embed/RFYKI1RbAMQ" frameborder="0" allowfullscreen></iframe>
+            <p><strong>Harvard's CS50 course.</strong><br> Juan finished Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.</p>
+          </div>
+        </div>
       </div>
 
     </div>
