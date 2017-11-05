@@ -89,7 +89,7 @@
         <h3 class="seven">07</h3>
         <div class="comicSection">
           <img src='img/comicBookHeader.jpg' alt="">
-          <p><strong>The dessert sparrow.</strong><br> Juan loves drawing, he learned to draw with an argentinian Marvel drawer and he's been working on his 50 page comicbook.</p>
+          <p><strong>The dessert sparrow.</strong><br> Juan loves drawing, he learned to draw with an argentinian Marvel drawer and he's been working on his 50 page comicbook as a side project.</p>
         </div>
 
 
