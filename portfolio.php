@@ -69,6 +69,11 @@
           <img src='img/booleMockup.png' alt="boole">
           <p><strong>Digital House's final project.</strong><br> Juan pair programmed a web app in php, javascript and sass, for illustrating a project schedule visually and dinamically. </p>
         </div>
+        <h2 class="four">04</h2>
+        <div class="laNacionSection">
+          <img src='img/lanacion.png' alt="lanacion">
+          <p><strong>La Nacion redesign.</strong><br> Juan redesigned and programmed his own vision for the argentinian newspaper.</p>
+        </div>
       </div>
 
     </div>
