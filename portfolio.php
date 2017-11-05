@@ -97,8 +97,14 @@
           <p><strong>The dessert sparrow.</strong><br> Juan loves drawing, he learned to draw with an argentinian Marvel drawer and he's been working on his 50 page comicbook as a side project.</p>
           <span><button id="comicButton" onclick="window.location.href='https://juansalvatoreblog.blogspot.com.ar/'">Go to blog</button></span>
         </div>
-
-
+        <h3 class="eight">08</h3>
+        <div class="contactSection">
+          <a href="mailto:juansalvatore@live.com.ar"><img class="mail" src='img/mail.png' alt="mail"></a>
+          <a href="https://www.linkedin.com/in/juansalvatore/"><img src='img/linkedin-social-outline-logotype.png' alt="linkedin"></a>
+          <a href="https://github.com/juansalvatore"><img class="git" src='img/github.png' alt="github"><a href="#">
+          <a href="https://www.instagram.com/juansalvatore/"><img src='img/instagram-social-outlined-logo.png' alt="instagram"></a>
+          <a href="https://twitter.com/jnsalvatore"><img src='img/twitter-social-outlined-logo.png' alt="twitter"></a>
+        </div>
     </div>
 
 
