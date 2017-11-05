@@ -81,7 +81,12 @@
             <p><strong>Harvard's CS50 course.</strong><br> Juan finished Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.</p>
           </div>
         </div>
-      </div>
+        <h3 class="six">06</h3>
+        <div class="audiovisualSection">
+          <img src='img/girl.png' alt="">
+          <p><strong>Connected to emptiness.</strong><br> Juan wrote and direct a short film which was selected at BAFICI, Buenos Aires International Independent Film Festival.</p>
+        </div>
+
 
     </div>
 
