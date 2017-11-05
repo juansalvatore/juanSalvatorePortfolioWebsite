@@ -64,6 +64,10 @@
           <p><strong>Sudco is a creative startup. </strong> Juan built their main website and works here doing his best to create awesome responsive web pages and apps. </p>
         </div>
         <img class="fish" src='img/fish.png' alt="sudco">
+        <div class="booleSection">
+          <img src='img/booleMockup.png' alt="boole">
+          <p><strong>Digital House's final project.</strong><br> Juan pair programmed a web app in php, javascript and sass, for illustrating a project schedule visually and dinamically. </p>
+        </div>
       </div>
 
     </div>
