@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="styles/portfolio-style.min.css">
   </head>
   <body>
-
-
     <div class="generalContainer">
       <div class="gridContainer">
 
