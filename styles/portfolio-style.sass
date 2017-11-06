@@ -1,13 +1,23 @@
 body
   margin: 0
   padding: 0
+  overflow-x: hidden
+
+
+html
+  width: 100vw
+  overflow-x: hidden
 
 *
   box-sizing: border-box
   -webkit-font-smoothing: antialiased
 
+p
+  display: inline-block
 
 .generalContainer
+  position: absolute
+  overflow-x: hidden
   width: 100vw
   height: 5550px
   border: 25px solid white
@@ -24,6 +34,7 @@ body
     display: flex
 
     .profileImage
+      transition: all ease-in-out 300ms
       position: absolute
       top: 120px
       margin-left: 169px
@@ -68,6 +79,7 @@ body
         width: 280px
 
     h1
+      transition: all ease-in-out 300ms
       position: absolute
       top: -123px
       font-family: helvetica
@@ -82,14 +94,17 @@ body
       font-size: 209px
       margin-left: 636px
       color: #F6F9F9
+      transition: all ease-in-out 300ms
 
     .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12
+      transition: all ease-in-out 300ms
       border: 1px solid white
       opacity: 0.5
       flex-grow: 1
       margin: 0 10px 0 10px
 
 .sudcoSection
+  transition: all ease-in-out 300ms
   position: absolute
   top: 860px
   margin-left: 89px;
@@ -138,6 +153,7 @@ body
     line-height: 48px
     letter-spacing: 0.5px
     width: 240px
+    display: inline-block
 
 .fish
   position: absolute
@@ -147,6 +163,7 @@ body
   height: auto
 
 .booleSection
+  transition: all ease-in-out 300ms
   position: absolute
   top: 1560px
   margin-left: 169px;
@@ -209,9 +226,11 @@ body
   font-size: 209px
   margin-left: 5px
   color: #F6F9F9
+  transition: all ease-in-out 300ms
 
 
 .laNacionSection
+  transition: all ease-in-out 300ms
   position: absolute
   top: 2260px
   margin-left: 249px;
@@ -224,6 +243,8 @@ body
     size: cover
     repeat: no-repeat
     position: center
+  margin-right: 0
+  padding-right: 0
 
   span
     position: absolute
@@ -262,6 +283,8 @@ body
     width: 450px
     top: 160px
     left: -80px
+    margin-right: 0
+    padding-right: 0
 
   p
     position: relative
@@ -271,6 +294,8 @@ body
     line-height: 48px
     letter-spacing: 0.5px
     width: 285px
+    margin-right: 0
+    padding-right: 0
 
 .four
   position: absolute
@@ -279,8 +304,10 @@ body
   font-size: 209px
   margin-left: 83px
   color: #F6F9F9
+  transition: all ease-in-out 300ms
 
 .csSection
+  transition: all ease-in-out 300ms
   position: absolute
   top: 2860px
   margin-left: 169px;
@@ -351,8 +378,10 @@ body
   font-size: 209px
   margin-left: 716px
   color: #F6F9F9
+  transition: all ease-in-out 300ms
 
 .audiovisualSection
+  transition: all ease-in-out 300ms
   position: absolute
   top: 3660px
   margin-left: 89px;
@@ -384,8 +413,10 @@ body
   font-size: 209px
   margin-left: 636px
   color: #F6F9F9
+  transition: all ease-in-out 300ms
 
 .comicSection
+  transition: all ease-in-out 300ms
   position: absolute
   top: 4360px
   margin-left: 89px;
@@ -449,8 +480,10 @@ body
   font-size: 209px
   margin-left: 5px
   color: #F6F9F9
+  transition: all ease-in-out 300ms
 
 .contactSection
+  transition: all ease-in-out 300ms
   position: absolute
   top: 5060px
   margin-left: -11px;
@@ -496,3 +529,128 @@ body
   margin-left: 558px
   color: #F6F9F9
   margin-bottom: 0
+  transition: all ease-in-out 300ms
+
+
+
+
+@media (max-width: 1024px)
+  .generalContainer
+    .gridContainer
+      .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12
+        opacity: 0
+
+
+@media (max-width: 998px)
+  .generalContainer
+    .gridContainer
+      display: flex !important
+      justify-content: center !important
+      .one
+        opacity: 0
+      .two
+        opacity: 0
+      .three
+        opacity: 0
+      .four
+        opacity: 0
+      .five
+        opacity: 0
+      .six
+        opacity: 0
+      .seven
+        opacity: 0
+      .eight
+        opacity: 0
+
+      .profileImage
+        transform: scale(0.8)
+        margin: 0 !important
+
+      .sudcoSection
+        transform: scale(0.8)
+        margin: 0 !important
+
+      .booleSection
+        transform: scale(0.8)
+        margin: 0 !important
+      .laNacionSection
+        transform: scale(0.8)
+        margin: 0 !important
+      .csSection
+        transform: scale(0.8)
+        margin: 0 !important
+      .audiovisualSection
+        transform: scale(0.8)
+        margin: 0 !important
+      .comicSection
+        transform: scale(0.8)
+        margin: 0 !important
+      .contactSection
+        transform: scale(0.8)
+        margin: 0 !important
+
+
+@media (max-width: 898px)
+  .generalContainer
+    .gridContainer
+
+      .booleSection
+        img
+          top: -120px
+          left: 20px
+
+        p
+          top: -140px
+          left: 100px
+
+        span
+          top: 390px
+          left: 420px
+      .laNacionSection
+        img
+          top: -20px
+          left: -20px
+
+        p
+          top: 70px
+          left: 100px
+
+        span
+          left: 420px
+
+      .csSection
+        .videoCs
+          left: -20px
+          top: -100px
+
+        p
+          top: 220px
+          left: 200px
+
+        span
+          top: 495px
+          left: 20px
+
+      .audiovisualSection
+        img
+          top: -180px
+          left: 60px
+
+        p
+          top: 140px
+          left: 200px
+
+      .comicSection
+        img
+          width: 400px
+          top: -220px
+          left: 20px
+
+        p
+          top: 100px
+          left: 40px
+
+        span
+          top: 395px
+          left: 430px

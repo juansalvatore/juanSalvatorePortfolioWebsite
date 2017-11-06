@@ -53,7 +53,7 @@
 
         </div>
 
-        <h1>01</h1>
+        <h1 class="one">01</h1>
         <div class="profileImage">
           <p class="juan">Juan</p>
           <p class="salvatore">Salvatore</p>
@@ -110,11 +110,11 @@
 
 
     <!-- call to JQUERY -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <!-- <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script> -->
     <!-- call to library for controlling GIF animation -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
-    <script type="text/javascript" src="controllers/portfolio-controller.js"></script>
+    <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script> -->
+    <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script> -->
+    <!-- <script type="text/javascript" src="controllers/portfolio-controller.js"></script> -->
   </body>
 </html>
