@@ -12,11 +12,10 @@
     <div class="generalContainer">
       <div class="gridContainer">
 
-
-
         <div class="col-1">
 
         </div>
+        
         <div class="col-2">
 
         </div>
@@ -104,6 +103,7 @@
           <a href="https://www.instagram.com/juansalvatore/" target="_blank"><img src='img/instagram-social-outlined-logo.png' alt="instagram"></a>
           <a href="https://twitter.com/jnsalvatore" target="_blank"><img src='img/twitter-social-outlined-logo.png' alt="twitter"></a>
         </div>
+      </div>
     </div>
 
 
