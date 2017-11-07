@@ -34,7 +34,6 @@ p
     display: flex
 
     .profileImage
-      transition: all ease-in-out 300ms
       position: absolute
       top: 120px
       margin-left: 169px
@@ -48,11 +47,13 @@ p
         size: cover
         repeat: no-repeat
         position: center
+      transition: all ease-in-out 300ms
 
       .juan
+        transition: all ease-in-out 300ms
         position: absolute
-        top: -160px
-        margin-left: 295px
+        top: -110px
+        margin-left: 195px
         font:
           size: 125px
           family: 'Shadows Into Light', cursive
@@ -60,9 +61,10 @@ p
         opacity: 0.8
 
       .salvatore
+        transition: all ease-in-out 300ms
         position: absolute
-        top: -50px
-        margin-left: 453px
+        top: -40px
+        margin-left: 353px
         font:
           size: 125px
           family: 'Shadows Into Light', cursive
@@ -70,6 +72,7 @@ p
         opacity: 0.8
 
       p
+        transition: all ease-in-out 300ms
         position: relative
         left: -79.5px
         top: 200px
@@ -505,7 +508,7 @@ p
 
   .mail
     width: 57px
-    
+
   .git
     width: 48px
 
@@ -595,26 +598,70 @@ p
   .generalContainer
     .gridContainer
 
+      .profileImage
+        max-width: 560px
+
+        p
+          left: 20px
+          top: 450px
+          width: 580px
+          background-color: white
+          padding: 30px 20px 30px 20px
+          box-shadow: 1px 90px 180px -30px rgba(20,39,48,0.3)
+          font-size: 21px
+
+        .juan
+          top: -100px
+          left: -140px
+          font-size: 100px
+
+        .salvatore
+          top: -20px
+          left: -180px
+          font-size: 100px
+
+      .sudcoSection
+        height: 508px
+
+        p
+          left: 40px
+          width: 300px
+          font-size: 21px
+
+        span
+          left: 420px
+          top: 500px
+
+      .fish
+        width: 400px
+        top: 850px
+
+
       .booleSection
         img
           top: -120px
           left: 20px
 
         p
-          top: -140px
-          left: 100px
+          top: -150px
+          left: 60px
+          font-size: 21px
+          width: 440px
 
         span
           top: 390px
           left: 420px
+
       .laNacionSection
         img
           top: -20px
           left: -20px
 
         p
-          top: 70px
-          left: 100px
+          top: 50px
+          left: 80px
+          font-size: 21px
+          width: 360px
 
         span
           left: 420px
@@ -625,8 +672,10 @@ p
           top: -100px
 
         p
-          top: 220px
-          left: 200px
+          top: 230px
+          left: 100px
+          font-size: 21px
+          width: 490px
 
         span
           top: 495px
@@ -639,7 +688,9 @@ p
 
         p
           top: 140px
-          left: 200px
+          left: 100px
+          font-size: 21px
+          width: 450px
 
       .comicSection
         img
@@ -650,7 +701,18 @@ p
         p
           top: 100px
           left: 40px
+          font-size: 21px
+          width: 400px
 
         span
           top: 395px
-          left: 430px
+          left: 420px
+
+      .contactSection
+        flex-direction: column
+        height: 580px
+        width: 300px
+        top: 4900px
+
+        .contactMe
+          left: -30px
