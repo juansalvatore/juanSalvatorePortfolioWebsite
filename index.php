@@ -52,6 +52,9 @@
 
         <h1 class="one">01</h1>
         <div class="profileImage">
+          <div class="solidColor">
+
+          </div>
           <span class="juan">Juan</span>
           <span class="salvatore">Salvatore</span>
           <p><strong>Juan specializes in making things</strong> for human people. By day he works at Sudco. By night he keeps learning, watches netflix, and helps other people to learn programming.</p>
